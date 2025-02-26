@@ -1,8 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import PrivateRoutes from "./PrivateRoutes";
-import PublicRoutes from "./PublicRoutes";
 import { publicRoutes } from "./routeList/publicRouteList";
-import { privateRoutes } from "./routeList/privateRouteList";
 //import NotFound from "../pages/NotFound";
 
 const AppRouter = () => {
